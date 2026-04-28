@@ -39,20 +39,3 @@ VALUES
 ('Ibuprofeno 400mg', 78.75),
 ('Amoxicilina 500mg', 120.00);
 GO
-
--- 5. Consulta básica: mostrar todos los productos
-SELECT *
-FROM Productos;
-GO
-
--- 6. Consulta básica: mostrar productos con precio mayor a 100
-SELECT IdProducto, NombreProducto, Precio
-FROM Productos
-WHERE Precio > 50;
-GO
-
--- 7. Consulta básica: ordenar productos por precio de menor a mayor
-SELECT IdProducto, NombreProducto, Precio
-FROM Productos
-ORDER BY Precio ASC;
-GO
